@@ -12,13 +12,13 @@ body{
 /*------------ 
 top part styles
  ---------------*/ 
+
  .top-part  {
     display: flex;
     background-color: #2D25A0;
     width: 1440px;
     height: 677px;
-    
- }
+    }
  .top-left-side{
     margin: 207px 102px 240px 156px;
  }
@@ -51,6 +51,24 @@ top part styles
     margin-right: 141px;
     margin-bottom: 86px; 
     }
+    .top-part:hover{
+       background-color: slateblue;
+    }
+    .top-left-upper-side h3:hover{
+         color: red;
+    }
+    .top-left-lower-side:hover{
+      font-size: 20px;
+      padding: 15px 29px;
+      width: 200px;
+     height: 80px;
+     transition:3s;
+    }
+    .top-right-side:hover{
+       color: red;
+    }
+
+    
     /*--------------------------
      player-details section styles 
     -------------------------*/
@@ -149,6 +167,16 @@ top part styles
             line-height: 80px;
             color: white;
             margin-bottom: 20xpx;
+         }
+         .top-left-upper-side-my-own h3:hover{
+            color: red;
+         }
+         .my-own-1:hover{
+            background-color: royalblue;
+         }
+         .top-right-side:hover{
+          transform: scale(1.5);
+          transition: 3s;
          }
          /*-------------------
           news section styles
